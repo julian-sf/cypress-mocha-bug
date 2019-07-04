@@ -1,0 +1,17 @@
+{
+  "name": "cypress-mocha-xunit",
+  "version": "1.0.0",
+  "description": "Example project to test out issue between Cypress and the built-in Mocha XUnit reporter",
+  "main": "index.js",
+  "author": "Julian Coy",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "cy": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^3.3.2",
+    "cypress-multi-reporters": "^1.1.22",
+    "mocha": "^6.1.4"
+  }
+}
